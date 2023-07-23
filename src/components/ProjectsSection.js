@@ -33,18 +33,18 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <FullScreenSection
-      backgroundColor="#14532d"
+      backgroundColor='#14532d'
       isDarkBackground
       p={8}
-      alignItems="flex-start"
+      alignItems='flex-start'
       spacing={8}
     >
-      <Heading as="h1" id="projects-section">
+      <Heading as='h1' id='projects-section'>
         Featured Projects
       </Heading>
       <Box
-        display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        display='grid'
+        gridTemplateColumns='repeat(2,minmax(0,1fr))'
         gridGap={8}
       >
         {projects.map((project) => (
